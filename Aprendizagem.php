@@ -34,7 +34,7 @@ echo $carros[0];
 
 ?>
 
-teste
+teste222
 <?php
 //Nulo é quando não existe valor
 //vazio é quando foi inciado, só nao tem informação
