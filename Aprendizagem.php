@@ -34,7 +34,7 @@ echo $carros[0];
 
 ?>
 
-teste222
+
 <?php
 //Nulo é quando não existe valor
 //vazio é quando foi inciado, só nao tem informação
@@ -47,7 +47,17 @@ echo $nulo;
 
 <?php
 
-$nome = $_GET["A"];
+$nome = (int)$_GET["A"];
 var_dump($nome);
 
 ?>
+
+<?php
+
+
+$ip = $_SERVER["SCRIPT_NAME"];
+echo $ip;
+
+
+?>
+
